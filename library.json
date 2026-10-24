@@ -1,0 +1,18 @@
+{
+  "name": "LibLPS22",
+  "version": "1.0.0",
+  "description": "Arduino driver for the LPS22HB barometric pressure sensor (I2C/SPI): one-shot and continuous modes, low-pass filter, FIFO, threshold interrupts, offset calibration and altitude",
+  "keywords": "lps22hb, pressure, barometer, altitude, i2c, spi, sensor",
+  "authors": [
+    {
+      "name": "JojeNN97",
+      "maintainer": true
+    }
+  ],
+  "frameworks": "arduino",
+  "headers": "LPS22.h",
+  "dependencies": [],
+  "export": {
+    "exclude": [".vscode", ".pio", "platformio.ini"]
+  }
+}
